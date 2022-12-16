@@ -1,0 +1,1 @@
+osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new audio recording)' -e  'tell application "QuickTime Player" to set miniaturized of window 1 to true' 

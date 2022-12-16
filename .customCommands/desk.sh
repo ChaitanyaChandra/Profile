@@ -1,0 +1,1 @@
+osascript -e 'tell application "AnyDesk" to activate' -e  'tell application "System Events" to click (first button of (every window of (application process "AnyDesk")) whose role description is "minimize button")' &
