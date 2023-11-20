@@ -7,6 +7,7 @@ echo -e "
 # kernel is \e[32m`uname -r`\e[0m
 # Uptime is \e[31m`uptime | sed 's/.*up ([^,]*), .*/1/'`\e[0m
 # Mem total \e[31m`cat /proc/meminfo | grep MemTotal | awk {'print $2'}` kB\e[0m
-Developer: \e[36mChaitanya Chandra\e[0m
-Email: \e[36memail@chaitu.net\e[0m
+# Developer: \e[36mChaitanya Chandra\e[0m
+# Email: \e[36memail@chaitu.net\e[0m
+#
 #################################################################################"
