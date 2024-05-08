@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 FILE=~/.count
 git_push () {
       variableCount=$(cat $FILE)
