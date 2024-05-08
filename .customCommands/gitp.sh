@@ -2,7 +2,7 @@ FILE=~/.count
 git_push () {
       variableCount=$(cat $FILE)
       git add .
-      echo $(($(cat $FILE) + 1)) > $FILE
+      echo $( $( expr $(cat $FILE) + 1)) > $FILE
       git commit -m "automated commit #$variableCount"
       git push
 }
